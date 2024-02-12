@@ -46,7 +46,7 @@ namespace lab1_2
                 double deltaX = currentPoint.X - startPoint.X;
                 double deltaY = currentPoint.Y - startPoint.Y;
 
-                foreach (UIElement child in groupCanvas.Children)
+                foreach (UIElement child in canvas.Children)
                 {
                     Canvas.SetLeft(child, Canvas.GetLeft(child) + deltaX);
                     Canvas.SetTop(child, Canvas.GetTop(child) + deltaY);
