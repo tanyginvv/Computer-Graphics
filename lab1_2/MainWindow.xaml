@@ -19,7 +19,6 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
-
             <!-- шапка -->
             <Path Fill="ForestGreen" Stroke="Black"  Canvas.Left="-58.669" Canvas.Top="-54.269" HorizontalAlignment="Center" VerticalAlignment="Top">
                 <Path.Data>
@@ -248,7 +247,4 @@
             </Path>
         </Canvas>
     </Grid>
-
-
-
 </Window>
