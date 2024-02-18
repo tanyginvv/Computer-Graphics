@@ -35,6 +35,29 @@
                     </PathGeometry>
                 </Path.Data>
             </Path>
+            <!-- уши шапки-->
+            <Ellipse Width="23" Height="58"  Stroke="Black" Fill="ForestGreen" Canvas.Left="255" Canvas.Top="153" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="25.825"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Width="23" Height="58"  Stroke="Black" Fill="ForestGreen" Canvas.Left="378" Canvas.Top="155" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-24.644"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <!--перед шапки-->
+            <Path Fill="DarkGreen"  Stroke="Black" Canvas.Left="277" Canvas.Top="137.731" Data="M330,222 L330,188 L334,180 L338,178 L440,178 L443,181 L448,188 L448,227" HorizontalAlignment="Center" VerticalAlignment="Center" Height="33" Stretch="Fill" Width="106"/>
             <!-- лицо -->
             <!-- рот -->
             <Path Stroke="#312C30" StrokeThickness="1" Canvas.Left="-56.249" Canvas.Top="-48.2" HorizontalAlignment="Left" VerticalAlignment="Top">
@@ -68,6 +91,7 @@
                     </TransformGroup>
                 </Ellipse.RenderTransform>
             </Ellipse>
+            <!--зрачки-->
             <Ellipse Width="4" Height="4" Fill="#000" Canvas.Left="319" Canvas.Top="188"/>
             <Ellipse Width="4" Height="4" Fill="#000" Canvas.Left="337" Canvas.Top="188"/>
             <!-- контур тела -->
@@ -108,6 +132,7 @@
                     </PathGeometry>
                 </Path.Data>
             </Path>
+            <!--подошва-->
             <Path Fill="#321C21" Canvas.Left="-62.169" Canvas.Top="-58.948" HorizontalAlignment="Left" VerticalAlignment="Top">
                 <Path.Data>
                     <PathGeometry>
@@ -153,6 +178,9 @@
             <!-- руки -->
             <Ellipse Width="20" Height="20" Fill="ForestGreen" Stroke="Black" RenderTransformOrigin="-1.753,-2.168" Canvas.Left="272" Canvas.Top="268"/>
             <Ellipse Width="20" Height="20" Fill="ForestGreen"  Stroke="Black" Canvas.Left="369" Canvas.Top="268"/>
+            <!-- пальцы на руках-->
+            <Ellipse Width="9" Height="9" Fill="ForestGreen" Stroke="Black" StrokeThickness="1" Canvas.Left="369" Canvas.Top="269" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <Ellipse Width="9" Height="9" Fill="ForestGreen" Stroke="Black" StrokeThickness="1" Canvas.Left="282" Canvas.Top="270" HorizontalAlignment="Left" VerticalAlignment="Center"/>
 
             <!-- воротник -->
             <Path Fill="ForestGreen"  Stroke="Black" Canvas.Left="-57.669" Canvas.Top="-58.948" HorizontalAlignment="Center" VerticalAlignment="Center">
@@ -181,29 +209,8 @@
                     </PathGeometry>
                 </Path.Data>
             </Path>
-            <Ellipse Width="23" Height="58"  Stroke="Black" Fill="ForestGreen" Canvas.Left="255" Canvas.Top="153" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Ellipse.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="25.825"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Ellipse.RenderTransform>
-            </Ellipse>
-            <Ellipse Width="23" Height="58"  Stroke="Black" Fill="ForestGreen" Canvas.Left="378" Canvas.Top="155" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Top">
-                <Ellipse.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform Angle="-24.644"/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </Ellipse.RenderTransform>
-            </Ellipse>
-            <Ellipse Width="9" Height="9" Fill="ForestGreen" Stroke="Black" StrokeThickness="1" Canvas.Left="369" Canvas.Top="269" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-            <Path Fill="DarkGreen"  Stroke="Black" Canvas.Left="277" Canvas.Top="137.731" Data="M330,222 L330,188 L334,180 L338,178 L440,178 L443,181 L448,188 L448,227" HorizontalAlignment="Center" VerticalAlignment="Center" Height="33" Stretch="Fill" Width="106"/>
-            <Ellipse Width="9" Height="9" Fill="ForestGreen" Stroke="Black" StrokeThickness="1" Canvas.Left="282" Canvas.Top="270" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+           
+            <!-- линия замка-->
             <Line X1="42" Y1="14" X2="79" Y2="14" Stroke="Black" StrokeThickness="1" Canvas.Left="284" Canvas.Top="283" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <Line.RenderTransform>
                     <TransformGroup>
@@ -214,6 +221,7 @@
                     </TransformGroup>
                 </Line.RenderTransform>
             </Line>
+            <!--карманы-->
             <Rectangle Width="21" Height="16" Fill="Transparent" Stroke="Black" StrokeThickness="1" Canvas.Left="341" Canvas.Top="256" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left" VerticalAlignment="Center">
                 <Rectangle.RenderTransform>
                     <TransformGroup>

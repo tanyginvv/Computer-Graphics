@@ -30,7 +30,7 @@ namespace lab1_4
         private void Canvas_MouseDown(object sender, MouseButtonEventArgs e)
         {
             centerPoint = e.GetPosition(canvas);
-            DrawCircle(centerPoint, 200); 
+            DrawCircle(centerPoint, 150); 
         }
 
         private void DrawCircle(Point center, int radius)

@@ -1,27 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
-namespace lab1_1
+namespace lab1_1 
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-
         public MainWindow()
         {
             InitializeComponent();
@@ -59,7 +48,7 @@ namespace lab1_1
                 while (grid.Margin.Top > targetY && speedUp > 0)
                 {
                     speedUp -= acceleration;
-                    grid.Margin = new Thickness(grid.Margin.Left, grid.Margin.Top - speedUp, grid.Margin.Right, grid.Margin.Bottom);
+                    grid.Margin = new Thickness(grid.Margin.Left, grid.Margin.Top - speedUp, grid.Margin.Right, grid.Margin.Bottom + speedUp);
                     await Task.Delay(16); 
                 }
 
@@ -69,12 +58,13 @@ namespace lab1_1
                 while (grid.Margin.Top < initialTopMargin && speedDown < maxSpeed)
                 {
                     speedDown += acceleration;
-                    grid.Margin = new Thickness(grid.Margin.Left, grid.Margin.Top + speedDown, grid.Margin.Right, grid.Margin.Bottom);
+                    grid.Margin = new Thickness(grid.Margin.Left, grid.Margin.Top + speedDown, grid.Margin.Right, grid.Margin.Bottom - speedDown);
                     await Task.Delay(16);
                 }
  
-                moving = false;
+                moving = true;
             }
         }
+        // скругления букв доделать окно одного размера
     }
 }

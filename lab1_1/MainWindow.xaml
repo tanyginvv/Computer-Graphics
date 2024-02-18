@@ -5,37 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:lab1_1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="1200" ResizeMode="NoResize" SizeToContent="WidthAndHeight" HorizontalAlignment="Center" VerticalAlignment="Center">
+        Title="MainWindow" Height="450" Width="1200"  HorizontalAlignment="Center" VerticalAlignment="Center" ResizeMode="NoResize" SizeToContent="WidthAndHeight" >
     <Grid RenderTransformOrigin="0.575,0.442">
         <Grid MouseUp="Grid_MouseUp">
             <Grid>
-                <Rectangle Fill="Blue" Width="70" Height="20" Margin="124,159,606,255"/>
-                <Rectangle Fill="Blue" Width="20" Height="77" Margin="149,179,631,179"/>
+                <Rectangle Fill="Blue" Width="70" Height="12" Margin="324,166,806,256"/>
+                <Rectangle Fill="Blue" Width="12" Height="77" Margin="353,176,835,181"/>
             </Grid>
         </Grid>
 
         <Grid MouseUp="Grid_MouseUp">
             <Grid>
-                <Rectangle Fill="Red" Width="20" Height="97"  Margin="413,160,767,177"/>
-                <Rectangle Fill="Red" Width="40" Height="20"  Margin="433,160,727,254"/>
-                <Rectangle Fill="Red" Width="20" Height="20"  Margin="453,180,727,234"/>
-                <Rectangle Fill="Red" Width="40" Height="20"  Margin="433,198,727,216"/>
-                <Rectangle Fill="Red" Width="40" Height="20"  Margin="443,198,717,216"/>
-                <Rectangle Fill="Red" Width="50" Height="20"  Margin="433,237,717,177"/>
-                <Rectangle Fill="Red" Width="20" Height="40"  Margin="463,217,717,177"/>
+                <Rectangle Fill="Red" Width="12" Margin="516,166,672,181"/>
+                <Canvas Margin="290,70,290,0">
+                    <Path Data="M 10,5 A 5,5 0 0 1 10,45 L 15,45 A 5,5 0 0 0 15,5 Z" Stroke="Red" StrokeThickness="7" Fill="Transparent" Canvas.Left="251.4" Canvas.Top="94.02" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Path Data="M 15,5 A 5,5 0 0 1 15,45 L 20,45 A 5,5 0 0 0 20,5 Z" Stroke="Red" StrokeThickness="7" Fill="Transparent" HorizontalAlignment="Center" Stretch="Fill" VerticalAlignment="Top" Width="39" Canvas.Left="259.4" Canvas.Top="136.019"/>
+                </Canvas>
             </Grid>
         </Grid>
 
+
         <Grid MouseUp="Grid_MouseUp" >
             <Grid>
-                <Rectangle Fill="Green" Width="20" Height="97"  Margin="511,160,669,177"/>
-                <Rectangle Fill="Green" Width="40" Height="20"  Margin="531,160,629,254"/>
-                <Rectangle Fill="Green" Width="20" Height="20"  Margin="551,180,629,234"/>
-                <Rectangle Fill="Green" Width="40" Height="20"  Margin="531,198,629,216"/>
-                <Rectangle Fill="Green" Width="40" Height="20"  Margin="541,198,619,216"/>
-                <Rectangle Fill="Green" Width="50" Height="20"  Margin="531,237,619,177"/>
-                <Rectangle Fill="Green" Width="20" Height="40"  Margin="561,217,619,177"/>
+                <Rectangle Fill="black" Width="12" Margin="419,166,769,181"/>
+                <Canvas Margin="290,70,290,0">
+                    <Path Data="M 10,5 A 5,5 0 0 1 10,45 L 15,45 A 5,5 0 0 0 15,5 Z" Stroke="Black" StrokeThickness="7" Fill="Transparent" Canvas.Left="154.4" Canvas.Top="94.02" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Path Data="M 15,5 A 5,5 0 0 1 15,45 L 20,45 A 5,5 0 0 0 20,5 Z" Stroke="Black" StrokeThickness="7" Fill="Transparent" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Center" Width="39" Canvas.Left="162.4" Canvas.Top="136.02"/>
+                </Canvas>
             </Grid>
+
         </Grid>
     </Grid>
 </Window>
