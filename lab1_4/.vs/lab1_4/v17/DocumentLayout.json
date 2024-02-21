@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "D:\\study\\Computer Graphics\\Computer-Graphics\\lab1_4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A86E528A-B5E9-47F0-86D2-CA74F1765B5A}|lab1_4.csproj|D:\\study\\Computer Graphics\\Computer-Graphics\\lab1_4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{A86E528A-B5E9-47F0-86D2-CA74F1765B5A}|lab1_4.csproj|d:\\study\\computer graphics\\computer-graphics\\lab1_4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A86E528A-B5E9-47F0-86D2-CA74F1765B5A}|lab1_4.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A86E528A-B5E9-47F0-86D2-CA74F1765B5A}|lab1_4.csproj|d:\\study\\computer graphics\\computer-graphics\\lab1_4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A86E528A-B5E9-47F0-86D2-CA74F1765B5A}|lab1_4.csproj|D:\\study\\Computer Graphics\\Computer-Graphics\\lab1_4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A86E528A-B5E9-47F0-86D2-CA74F1765B5A}|lab1_4.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,8 +42,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAqwFAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-13T17:58:10.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-13T17:58:10.595Z"
             }
           ]
         }

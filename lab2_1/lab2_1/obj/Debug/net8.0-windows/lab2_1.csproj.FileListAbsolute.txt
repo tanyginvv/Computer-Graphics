@@ -1,0 +1,10 @@
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\MainWindow.baml
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\App.g.cs
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\lab2_1_MarkupCompile.cache
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\lab2_1.g.resources
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\lab2_1.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\lab2_1.AssemblyInfoInputs.cache
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\lab2_1.AssemblyInfo.cs
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\lab2_1.csproj.CoreCompileInputs.cache
+D:\study\Computer Graphics\Computer-Graphics\lab2_1\lab2_1\obj\Debug\net8.0-windows\lab2_1.sourcelink.json
