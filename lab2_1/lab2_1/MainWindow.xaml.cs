@@ -49,7 +49,7 @@ namespace lab2_1
                 }
             }
             catch (Exception)
-            {}
+            { }
         }
 
         private void AddSemiTransparentBackground()
@@ -59,7 +59,6 @@ namespace lab2_1
 
             grid.Background = imageBrush;
         }
-        //так чтобы не тормозило
         private void ClearBackground()
         {
             Grid parentGrid = (Grid)ImageView.Parent;
@@ -69,11 +68,67 @@ namespace lab2_1
                 if (child is Canvas)
                 {
                     grid.Children.Remove(child);
-                    break; 
+                    break;
                 }
             }
 
             parentGrid.Background = Brushes.Transparent;
+        }
+
+        private bool isDragging = false;
+        private Point startPoint;
+        private double startLeft;
+        private double startTop;
+
+        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.Source == ImageView || e.Source == BackgroundImage)
+            {
+                isDragging = true;
+                startPoint = e.GetPosition(viewbox);
+                var transform = grid.RenderTransform as TranslateTransform;
+                if (transform != null)
+                {
+                    startLeft = transform.X;
+                    startTop = transform.Y;
+                }
+                else
+                {
+                    transform = new TranslateTransform();
+                    grid.RenderTransform = transform;
+                    startLeft = 0;
+                    startTop = 0;
+                }
+                grid.CaptureMouse();
+            }
+        }
+
+        private void Grid_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (isDragging)
+            {
+                Point mousePos = e.GetPosition(viewbox);
+                double deltaX = mousePos.X - startPoint.X;
+                double deltaY = mousePos.Y - startPoint.Y;
+
+                var transform = grid.RenderTransform as TranslateTransform;
+                if (transform != null)
+                {
+                    double newX = startLeft + deltaX;
+                    double newY = startTop + deltaY;
+
+                    transform.X = newX;
+                    transform.Y = newY;
+                }
+            }
+        }
+        private void Grid_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            if (isDragging)
+            {
+                isDragging = false;
+                grid.ReleaseMouseCapture();
+            }
         }
     }
 }
