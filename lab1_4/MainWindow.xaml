@@ -8,7 +8,6 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Canvas x:Name="canvas" Background="White" MouseDown="Canvas_MouseDown">
-                <!-- Здесь можно добавить другие элементы, если необходимо -->
         </Canvas>
     </Grid>
  </Window>

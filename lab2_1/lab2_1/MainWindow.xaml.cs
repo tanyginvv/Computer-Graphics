@@ -2,6 +2,7 @@
 using System;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
@@ -53,55 +54,26 @@ namespace lab2_1
 
         private void AddSemiTransparentBackground()
         {
-            Canvas canvas = new Canvas();
-            canvas.Width = 1200;
-            canvas.Height = 900;
-            canvas.HorizontalAlignment = HorizontalAlignment.Stretch;
-            canvas.VerticalAlignment = VerticalAlignment.Stretch;
-            canvas.Margin = new Thickness(0);
+            ImageBrush imageBrush = new ImageBrush();
+            imageBrush.ImageSource = new BitmapImage(new Uri("background.png", UriKind.Relative));
 
-            int numRows = 30;
-            int numCols = 40;
-            double cellWidth = canvas.Width / numCols;
-            double cellHeight = canvas.Height / numRows;
-
-            SolidColorBrush semiTransparentBrush = new SolidColorBrush(Colors.Transparent);
-            semiTransparentBrush.Opacity = 0.1; 
-
-            for (int row = 0; row < numRows; row++)
-            {
-                for (int col = 0; col < numCols; col++)
-                {
-                    Rectangle rectangle = new Rectangle();
-                    rectangle.Width = cellWidth;
-                    rectangle.Height = cellHeight;
-                    rectangle.Fill = ((row + col) % 2 == 0) ? Brushes.Black : Brushes.White; 
-                    rectangle.Opacity = 0.5; 
-                    Canvas.SetLeft(rectangle, col * cellWidth); 
-                    Canvas.SetTop(rectangle, row * cellHeight); 
-
-                    canvas.Children.Add(rectangle);
-                }
-            }
-
-            GridBackground.Children.Add(canvas);
+            grid.Background = imageBrush;
         }
-
+        //так чтобы не тормозило
         private void ClearBackground()
         {
             Grid parentGrid = (Grid)ImageView.Parent;
 
-            foreach (UIElement child in GridBackground.Children)
+            foreach (UIElement child in grid.Children)
             {
                 if (child is Canvas)
                 {
-                    GridBackground.Children.Remove(child);
+                    grid.Children.Remove(child);
                     break; 
                 }
             }
 
             parentGrid.Background = Brushes.Transparent;
         }
-
     }
 }

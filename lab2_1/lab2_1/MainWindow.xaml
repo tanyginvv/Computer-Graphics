@@ -17,8 +17,7 @@
         <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1">
             <Viewbox MaxWidth="400" MaxHeight="300" Stretch="Uniform">
                 <Grid x:Name="grid">
-                    <Grid x:Name="GridBackground">
-                    </Grid>
+                    <Image x:Name="BackgroundImage" Stretch="Uniform"/>
                     <Image x:Name="ImageView" Stretch="Uniform"/>
                 </Grid>
             </Viewbox>

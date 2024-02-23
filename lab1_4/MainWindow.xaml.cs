@@ -88,6 +88,7 @@ namespace lab1_4
             Canvas.SetLeft(rect, point.X);
             Canvas.SetTop(rect, point.Y);
             canvas.Children.Add(rect);
+            //тоже что в 3.1
         }
     }
 }

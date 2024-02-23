@@ -44,7 +44,7 @@ namespace lab1_1
                 double targetY = initialTopMargin - moveDistance;
                 double initialSpeedUp = maxSpeed;
                 double speedUp = initialSpeedUp;
-
+                //одна и та же формула от цикла избавиться
                 while (grid.Margin.Top > targetY && speedUp > 0)
                 {
                     speedUp -= acceleration;

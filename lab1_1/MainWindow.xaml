@@ -27,10 +27,10 @@
 
         <Grid MouseUp="Grid_MouseUp" >
             <Grid>
-                <Rectangle Fill="black" Width="12" Margin="419,166,769,181"/>
+                <Rectangle Fill="green" Width="12" Margin="419,166,769,181"/>
                 <Canvas Margin="290,70,290,0">
-                    <Path Data="M 10,5 A 5,5 0 0 1 10,45 L 15,45 A 5,5 0 0 0 15,5 Z" Stroke="Black" StrokeThickness="7" Fill="Transparent" Canvas.Left="154.4" Canvas.Top="94.02" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-                    <Path Data="M 15,5 A 5,5 0 0 1 15,45 L 20,45 A 5,5 0 0 0 20,5 Z" Stroke="Black" StrokeThickness="7" Fill="Transparent" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Center" Width="39" Canvas.Left="162.4" Canvas.Top="136.02"/>
+                    <Path Data="M 10,5 A 5,5 0 0 1 10,45 L 15,45 A 5,5 0 0 0 15,5 Z" Stroke="Green" StrokeThickness="7" Fill="Transparent" Canvas.Left="154.4" Canvas.Top="94.02" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                    <Path Data="M 15,5 A 5,5 0 0 1 15,45 L 20,45 A 5,5 0 0 0 20,5 Z" Stroke="Green" StrokeThickness="7" Fill="Transparent" HorizontalAlignment="Left" Stretch="Fill" VerticalAlignment="Center" Width="39" Canvas.Left="162.4" Canvas.Top="136.02"/>
                 </Canvas>
             </Grid>
 

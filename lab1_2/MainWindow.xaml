@@ -232,7 +232,7 @@
                     </TransformGroup>
                 </Rectangle.RenderTransform>
             </Rectangle>
-            <Rectangle Width="21" Height="16" Fill="Transparent" Stroke="Black" StrokeThickness="1" Canvas.Left="299" Canvas.Top="255" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <!--<Rectangle Width="21" Height="16" Fill="Transparent" Stroke="Black" StrokeThickness="1" Canvas.Left="299" Canvas.Top="255" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <Rectangle.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -241,7 +241,7 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </Rectangle.RenderTransform>
-            </Rectangle>
+            </Rectangle>-->
             <Path Data="M 10,20 L 20,30 L 27,8" Stroke="Black" StrokeThickness="1" Fill="Transparent" Canvas.Left="342.8" Canvas.Top="252.312" HorizontalAlignment="Left" Height="14" Stretch="Fill" VerticalAlignment="Center" Width="15"/>
             <Path Data="M 10,20 L 20,30 L 27,8" Stroke="Black" StrokeThickness="1" Fill="Transparent" Canvas.Left="301.9" Canvas.Top="251.062" Height="14" Stretch="Fill" Width="15" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5">
                 <Path.RenderTransform>

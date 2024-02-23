@@ -83,6 +83,7 @@ namespace lab1_3
             Canvas.SetLeft(rect, point.X);
             Canvas.SetTop(rect, point.Y);
             canvas.Children.Add(rect);
+            //менял пиксель а не накидывал квдраты
         }
     }
 }
