@@ -1,0 +1,30 @@
+﻿<Window x:Class="lab2_2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Drawing App" Height="650" Width="1000">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Menu Grid.Row="0">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Click="New_Click"/>
+                <MenuItem Header="_Open" Click="Open_Click"/>
+                <Separator/>
+                <MenuItem Header="_Save As" Click="SaveAs_Click"/>
+            </MenuItem>
+        </Menu>
+
+        <Canvas Name="canvas" Background="White" MouseLeftButtonDown="Canvas_MouseLeftButtonDown" MouseMove="Canvas_MouseMove" Grid.Row="1" />
+        <ComboBox Name="comboBoxColors" SelectedIndex="0" SelectionChanged="ComboBox_SelectionChanged" Grid.Row="0" Margin="0,5,5,10" HorizontalAlignment="Right">
+            <ComboBoxItem Content="Black"/>
+            <ComboBoxItem Content="Red"/>
+            <ComboBoxItem Content="Blue"/>
+            <ComboBoxItem Content="Green"/>
+            <ComboBoxItem Content="White"/>
+            <ComboBoxItem Content="Pink"/>
+        </ComboBox>
+    </Grid>
+</Window>

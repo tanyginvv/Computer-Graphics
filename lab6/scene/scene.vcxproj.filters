@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{af7feea9-407d-4572-8817-49920f2015be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMyApplication">
+      <UniqueIdentifier>{318532c3-0710-49a8-9685-67a633a91821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GLApplication">
+      <UniqueIdentifier>{48e87a47-e13f-4cf7-8338-aee63117501e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CBoundingBox">
+      <UniqueIdentifier>{ac8b2f63-973b-4e41-a409-6b68e523b606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMesh">
+      <UniqueIdentifier>{f2bba691-e917-4b28-954c-5eb70c695d33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTextureImpl">
+      <UniqueIdentifier>{1979ebc5-7dfc-437e-a0c3-4225b849e45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTextureMap">
+      <UniqueIdentifier>{aa4805bb-906b-4003-9305-2d8552756722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CModel">
+      <UniqueIdentifier>{1e4c340f-7054-419c-aa5f-6ca0d3dd8d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMaterial">
+      <UniqueIdentifier>{49c5b65b-5ffb-468d-9693-9c951e9f9e2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CModelLoader">
+      <UniqueIdentifier>{6b98a72f-c996-4c74-a9b8-5790ce6ee6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CModelMaterial">
+      <UniqueIdentifier>{07627d96-6777-4d0e-b63f-50b69f168764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CModelRenderer">
+      <UniqueIdentifier>{9c665196-5ecf-4ed3-9d62-91832990b6e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CTextureLoader">
+      <UniqueIdentifier>{7a1c7962-5918-4f68-9afa-0d4f9a57a1a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CDirectLight">
+      <UniqueIdentifier>{cae7a79e-3509-4dde-8ab3-22ca05f3c0e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CLight">
+      <UniqueIdentifier>{ed65c478-2101-4a51-a5d9-6fbd268d9d48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMyApplication.cpp">
+      <Filter>CMyApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="GLApplication.cpp">
+      <Filter>GLApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoundingBox.cpp">
+      <Filter>CBoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CMesh.cpp">
+      <Filter>CMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureMap.cpp">
+      <Filter>CTextureMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CModel.cpp">
+      <Filter>CModel</Filter>
+    </ClCompile>
+    <ClCompile Include="CMaterial.cpp">
+      <Filter>CMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelLoader.cpp">
+      <Filter>CModelLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelMaterial.cpp">
+      <Filter>CModelMaterial</Filter>
+    </ClCompile>
+    <ClCompile Include="CModelRenderer.cpp">
+      <Filter>CModelRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextureLoader.cpp">
+      <Filter>CTextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectLight.cpp">
+      <Filter>CDirectLight</Filter>
+    </ClCompile>
+    <ClCompile Include="CLight.cpp">
+      <Filter>CLight</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CBufferImpl.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CBufferObjectBase.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CFile3ds.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CVector3.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CMyApplication.h">
+      <Filter>CMyApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="GLApplication.h">
+      <Filter>GLApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoundingBox.h">
+      <Filter>CBoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="CMesh.h">
+      <Filter>CMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureImpl.h">
+      <Filter>CTextureImpl</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureMap.h">
+      <Filter>CTextureMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGdiplusInitializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CModel.h">
+      <Filter>CModel</Filter>
+    </ClInclude>
+    <ClInclude Include="CMaterial.h">
+      <Filter>CMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelLoader.h">
+      <Filter>CModelLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelMaterial.h">
+      <Filter>CModelMaterial</Filter>
+    </ClInclude>
+    <ClInclude Include="CModelRenderer.h">
+      <Filter>CModelRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextureLoader.h">
+      <Filter>CTextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectLight.h">
+      <Filter>CDirectLight</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight.h">
+      <Filter>CLight</Filter>
+    </ClInclude>
+    <ClInclude Include="common_inc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
